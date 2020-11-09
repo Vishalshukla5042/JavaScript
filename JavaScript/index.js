@@ -184,3 +184,12 @@ if(isLoggedIn){
     }
 }
 
+
+//Json
+obj={name:"vishal",length:1}
+jso=JSON.stringify(obj)
+console.log(jso)
+console.log(typeof jso)
+parsed=JSON.parse(`VISHAL`)
+console.log(parsed);
+localStorage.clear()
